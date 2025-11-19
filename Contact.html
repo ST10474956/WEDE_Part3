@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Contact Us - Tech Collective</title>
+<meta name="description" content="Affordable refurbished laptops, smartphones, and tablets. Shop now and save on quality tech.">
+<meta name="keywords" content="refurbished laptops, smartphones, affordable tech, second-hand laptops, tablets, tech collective">
+<meta name="author" content="Malose Kamogelo Matjiu">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header>
+  <img src="Images/logo.webp" alt="Tech Collective" >
+   <h1>Tech Collective</h1>
+    <h2>Contact Us</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Service and Product.html">Service/Product</a></li>
+      <li><a href="News.html">News</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+      <button class="cart-nav-btn" onclick="openCart()">🛒 View Cart</button>
+  </nav>
+  <hr>
+
+  <main>
+    <h2>Get in Touch</h2>
+    <p>Email: info@techcollective.com</p>
+    <p>Phone: +011 456 7890</p>
+    <p>WhatsApp: +2786 558 6978</p>
+    <p>Location: 6th Ave, Wannenburghoogte, Germiston</p>
+
+    <form id="enquiryForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="product">Product Interested In:</label>
+      <select id="product">
+        <option>Smartphones</option>
+        <option>Tablets</option>
+        <option>Laptops</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+
+    <h3>Find Us</h3>
+ <iframe
+  title="Tech Collective location - Wannenburghoogte, Germiston"
+  src="https://www.google.com/maps?q=Wannenburghoogte%2C%20Germiston&output=embed"
+  width="100%" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+  </main>
+
+  <footer>
+    <p>&copy; ST10474956 | Tech Collective</p>
+  </footer>
+  
+  <script src="js/FormValidation.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base font & colors */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2c5f2d;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+/* Base styles applied across all pages */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+/* Lightbox */
+.lightbox-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.8);
+  display: none; align-items: center; justify-content: center; z-index: 1000;
+}
+.lightbox-backdrop.open { display: flex; }
+.lightbox-content {
+  position: relative; max-width: 90vw; max-height: 90vh;
+}
+.lightbox-content img {
+  max-width: 100%; max-height: 90vh; border-radius: 8px;
+}
+.lightbox-close, .lightbox-prev, .lightbox-next {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(255,255,255,0.9); border: none; padding: 10px 14px; cursor: pointer;
+  border-radius: 6px; font-weight: 600;
+}
+.lightbox-close { top: 10px; right: 10px; transform: none; }
+.lightbox-prev { left: -60px; }
+.lightbox-next { right: -60px; }
+@media (max-width: 600px) {
+  .lightbox-prev { left: 5px; }
+  .lightbox-next { right: 5px; }
+}
+
+/* Search polish */
+.search-bar { margin: 16px 0; }
+#productSearch { width: 100%; max-width: 420px; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+.no-results { margin-top: 12px; color: #666; font-style: italic; }
+
+/* Form styles */
+form#enquiryForm { max-width: 520px; }
+form#enquiryForm input, form#enquiryForm select, form#enquiryForm textarea {
+  width: 100%; padding: 10px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 6px;
+}
+.form-error { color: #b00020; font-size: 0.9rem; margin-top: -4px; margin-bottom: 8px; }
+.form-success { background: #e7f7e7; border: 1px solid #98d098; color: #1e7b1e; padding: 10px; border-radius: 6px; margin-top: 12px; }
+.is-invalid { border-color: #b00020; outline: none; }

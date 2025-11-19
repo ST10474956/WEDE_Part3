@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Collective - Affordable Refurbished Tech</title>
+  <meta name="description" content="Affordable refurbished laptops, smartphones, and tablets. Shop now and save on quality tech.">
+<meta name="keywords" content="refurbished laptops, smartphones, affordable tech, second-hand laptops, tablets, tech collective">
+<meta name="author" content="Malose Kamogelo Matjiu">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <img src="Images/logo.webp" alt="Tech Collective">
+        <h1>Welcome to Tech Collective</h1>
+        <p class="tagline">Empowering Innovation Through Technology</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Service and Product.html">Service/Product</a></li>
+            <li><a href="News.html">News</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <button class="cart-nav-btn" onclick="openCart()">🛒 View Cart</button>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section class="highlight">
+            <h2>Our Products</h2>
+            <div class="grid">
+                <div>
+                    <a href="Service and Product.html#Tablets">
+                        <img src="Images/tablets.webp" alt="Tablets">
+                    </a>
+                    <h3>Tablets</h3>
+                    <p>Portable and easy-to-use devices for learning, work, and fun.</p>
+                    <button onclick="addToCart('Tablet', 2000)">Add to Cart</button>
+                </div>
+                <div>
+                    <a href="Service and Product.html#Smartphones">
+                        <img src="Images/bg2.webp" alt="Smartphones">
+                    </a>
+                    <h3>Smartphones</h3>
+                    <p>Stay connected with affordable, high-quality second-hand smartphones.</p>
+                    <button onclick="addToCart('Smartphone', 3500)">Add to Cart</button>
+                </div>
+                <div>
+                    <a href="Service and Product.html#Laptops">
+                        <img src="Images/laptop.webp" alt="Laptops">
+                    </a>
+                    <h3>Laptops</h3>
+                    <p>Reliable second-hand laptops for students, businesses, and more.</p>
+                    <button onclick="addToCart('Laptop', 5000)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ST10474956 | Tech Collective</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

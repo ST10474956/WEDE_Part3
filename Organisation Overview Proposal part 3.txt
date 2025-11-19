@@ -1,0 +1,40 @@
+# Project Proposal – Tech Collective Website
+
+## Introduction
+Tech Collective is a student-built e-commerce website that promotes affordable second-hand technology and sustainability. The site is designed to showcase products, engage users through interactive features, and demonstrate practical web development skills.
+
+## Objectives
+- Build a professional, responsive website using HTML, CSS, and JavaScript.
+- Implement interactive features such as a shopping cart, search bar, and form validation.
+- Optimize content for usability, accessibility, and SEO.
+- Reflect real-world e-commerce functionality suitable for academic evaluation.
+
+## Target Audience
+- Students needing affordable devices.
+- Families and small businesses on a budget.
+- Eco-conscious buyers interested in reducing e-waste.
+
+## Key Features
+- **Homepage:** Highlights product categories.
+- **About Page:** Shares company mission and values.
+- **Products Page:** Displays smartphones, tablets, and laptops with prices.
+- **Cart System:** Add/remove items, view total, and checkout.
+- **Search Bar:** Filters products by name.
+- **Confirmation Page:** Displays after successful checkout.
+- **Contact Page:** Includes enquiry form with validation and embedded map.
+- **SEO Optimization:** Title tags, meta descriptions, keywords, and alt-text.
+- **Consistent Layout:** Shared header/footer across all pages.
+- **Lightbox Gallery (Planned):** Will allow users to view product images in a modal.
+
+## Technologies Used
+- **HTML5** – Page structure and content.
+- **CSS3** – Styling, layout, and responsiveness.
+- **JavaScript** – Cart logic, search filtering, form validation, and modal behavior.
+
+## Expected Outcomes
+- A fully functional, professional-grade student website.
+- Demonstration of interactive web features and responsive design.
+- A portfolio-ready project aligned with academic rubrics and real-world standards.
+
+## Conclusion
+The Tech Collective website is a complete e-commerce simulation that meets and exceeds rubric expectations. With working cart, checkout, search, and SEO features, it showcases strong technical and design skills. The upcoming gallery lightbox will further enhance user experience and interactivity.
